@@ -12,6 +12,7 @@ export const Search = () => {
   const searchParams = useSearchParams();
   const [query, setQuery] = useState("");
 
+
   useEffect(() => {
     const delayDebounceFn = setTimeout(() => {
       if (query) {
